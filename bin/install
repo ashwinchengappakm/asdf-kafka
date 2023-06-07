@@ -15,7 +15,7 @@ untar_path() {
   local version=${2}
   local tmp_download_dir=${3}
 
-  echo "${tmp_download_dir}/kafka_2.12-${version}"
+  echo "${tmp_download_dir}/kafka_2.13-${version}"
 }
 
 download_source() {

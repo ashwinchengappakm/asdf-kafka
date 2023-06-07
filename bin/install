@@ -30,7 +30,7 @@ download_source() {
 get_download_url() {
   local install_type=${1}
   local version=${2}
-  echo "http://mirrors.gigenet.com/apache/kafka/${version}/kafka_2.13-${version}.tgz"
+  echo "https://archive.apache.org/dist/kafka/${version}/kafka_2.13-${version}.tgz"
 }
 
 install_kafka() {
